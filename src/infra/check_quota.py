@@ -11,6 +11,7 @@ Requirements: Azure CLI (az) -- must be logged in.
 """
 
 import json
+import platform
 import subprocess
 import sys
 
@@ -68,6 +69,7 @@ def az(args: list[str]) -> str:
             capture_output=True,
             text=True,
             timeout=60,
+            shell=platform.system() == "Windows",
         )
         return result.stdout.strip()
     except (subprocess.TimeoutExpired, FileNotFoundError):
