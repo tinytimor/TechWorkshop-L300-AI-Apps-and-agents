@@ -1,3 +1,12 @@
 {
-    "python-envs.pythonProjects": []
+    "python-envs.pythonProjects": [],
+    "chat.agentSkillsLocations": {
+        ".github/skills": true,
+        ".agents/skills": true,
+        ".claude/skills": true,
+        "~/.copilot/skills": true,
+        "~/.agents/skills": true,
+        "~/.claude/skills": true,
+        "~/.vscode/extensions/synapsevscode.synapse-1.22.0/copilot/skills": true
+    }
 }

@@ -1,0 +1,434 @@
+[
+  {
+    "agent": "cora",
+    "description": "Greeting and capabilities",
+    "query": "Hello, what can you help me with?",
+    "response": "{\"answer\":\"Hello! I can help you find products, compare options, and make shopping recommendations based on what you’re looking for. If you tell me what you need—like a gift, gadget, home item, or something specific—I can suggest products for you.\",\"image_output\":[],\"products\":[]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.43,
+      "f1_score": 0.05,
+      "no_error": 1.0,
+      "length_quality": 1.0,
+      "overall": 0.7
+    },
+    "latency_s": 5.26
+  },
+  {
+    "agent": "cora",
+    "description": "Product catalog overview",
+    "query": "What types of products does Zava sell?",
+    "response": "{\"answer\":\"Hi! Zava helps shoppers find product recommendations across a variety of categories. If you’re looking for something specific, tell me what you need and I can suggest relevant products.\",\"image_output\":[],\"products\":[]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.17,
+      "f1_score": 0.06,
+      "no_error": 1.0,
+      "length_quality": 1.0,
+      "overall": 0.65
+    },
+    "latency_s": 2.43
+  },
+  {
+    "agent": "cora",
+    "description": "Store information",
+    "query": "Tell me about your store",
+    "response": "{\"answer\":\"Hi! I’m Zava’s shopping assistant. I can help you discover products, compare options, and answer questions about what’s available in the store. If you tell me what you’re looking for—like clothing, electronics, home goods, or a gift—I can recommend products that fit your needs.\",\"image_output\":[],\"products\":[]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.5,
+      "f1_score": 0.04,
+      "no_error": 1.0,
+      "length_quality": 1.0,
+      "overall": 0.71
+    },
+    "latency_s": 2.55
+  },
+  {
+    "agent": "cora",
+    "description": "Open-ended guidance request",
+    "query": "I'm repainting my house and don't know where to start. Can you guide me?",
+    "response": "{\"answer\":\"Absolutely — repainting a house is much easier if you break it into stages. Here’s a practical way to get started:\\n\\n1. Decide what you’re painting\\n- Exterior, interior, or both?\\n- Whole house or just specific rooms/areas?\\n- Walls only, or also trim, doors, ceilings, cabinets, etc.?\\n\\n2. Check the condition of the surfaces\\n- Look for peeling paint, cracks, holes, mold/mildew, water stains, or damaged siding/drywall.\\n- Good prep is the difference between a long-lasting finish and a messy one.\\n\\n3. Choose your paint type and finish\\n- Interior walls: usually matte/eggshell/satin.\\n- Trim and doors: often semi-gloss or gloss for durability.\\n- Exterior: use exterior-grade paint designed for weather resistance.\\n- If the current paint color is changing a lot, you may need primer.\\n\\n4. Measure your space\\n- Estimate square footage so you know how much paint to buy.\\n- A quick rule: one gallon often covers about 350–400 sq ft per coat, but coverage varies by surface and paint type.\\n\\n5. Gather your supplies\\nCommon basics:\\n- Paint\\n- Primer\\n- Brushes and rollers\\n- Roller trays/liners\\n- Painter’s tape\\n- Drop cloths\\n- Sandpaper or sanding sponge\\n- Spackle/patch compound\\n- Caulk for gaps\\n- Cleaning supplies\\n\\n6. Prep the area\\n- Move or cover furniture.\\n- Remove wall decor, outlet covers, and switch plates.\\n- Clean surfaces so paint adheres well.\\n- Patch holes and sand rough spots.\\n- Tape off edges if needed.\\n\\n7. Prime if needed\\n- Use primer on new drywall, patched areas, stains, major color changes, or problem surfaces.\\n\\n8. Paint in the right order\\n- Ceilings first\\n- Then walls\\n- Then trim/doors\\n- For exteriors, work from top to bottom\\n\\n9. Plan for drying and second coats\\n- Follow the paint can instructions for drying time.\\n- Most projects need at least two coats for even color and durability.\\n\\n10. Clean up and inspect\\n- Remove tape before the paint fully hardens.\\n- Check for missed spots, drips, or uneven areas.\\n- Save a labeled sample of the paint for future touch-ups.\\n\\nIf you want, I can help you make a step-by-step plan based on whether you’re painting the interior or exterior, plus how big the job is.\",\"image_output\":[],\"products\":[]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.8,
+      "f1_score": 0.03,
+      "no_error": 1.0,
+      "length_quality": 1.0,
+      "overall": 0.77
+    },
+    "latency_s": 5.61
+  },
+  {
+    "agent": "cora",
+    "description": "Promotions inquiry",
+    "query": "Do you offer any deals right now?",
+    "response": "{\"answer\":\"Hi! I can help with that. I don’t have live access to current promotions in this chat, so I can’t verify whether there are deals running right now. If you’d like, I can still help you find products that are commonly discounted or recommend items in a budget range.\",\"image_output\":[],\"products\":[]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.5,
+      "f1_score": 0.0,
+      "no_error": 1.0,
+      "length_quality": 1.0,
+      "overall": 0.7
+    },
+    "latency_s": 2.68
+  },
+  {
+    "agent": "cora",
+    "description": "Product knowledge question",
+    "query": "What's the difference between interior and exterior paint?",
+    "response": "{\"answer\":\"Interior paint is formulated for use inside the home, where it doesn’t need to handle sun, rain, or extreme temperature changes. It’s usually designed for easier cleaning, lower odor, and lower VOCs, with finishes that work well on indoor walls and ceilings.\\n\\nExterior paint is made to withstand weather and outdoor conditions like UV rays, moisture, heat, cold, and mildew. It’s generally more durable and flexible so it can expand and contract with changing temperatures without cracking or peeling.\\n\\nIn short:\\n- Interior paint = for indoor spaces, easier to clean and lower odor\\n- Exterior paint = for outdoor surfaces, more weather-resistant and durable\\n\\nYou should not swap them, since interior paint won’t hold up outdoors and exterior paint may contain additives that aren’t ideal for indoor use.\",\"image_output\":[],\"products\":[]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 1.0,
+      "f1_score": 0.09,
+      "no_error": 1.0,
+      "length_quality": 1.0,
+      "overall": 0.82
+    },
+    "latency_s": 3.0
+  },
+  {
+    "agent": "inventory-agent",
+    "description": "Specific product stock check",
+    "query": "Check if PROD0001 is in stock",
+    "response": "{'metadata': {}, 'top_logprobs': 0, 'temperature': 1, 'top_p': 0.98, 'service_tier': 'default', 'model': 'gpt-5.4-mini', 'reasoning': {'effort': 'none'}, 'background': False, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tools': [{'type': 'function', 'name': 'mcp_inventory_check', 'description': '\\n    Check inventory availability for a specific product.\\n\\n    Args:\\n        product_id: The unique product ID to check inventory for\\n\\n    Returns:\\n        Inventory status and availability information\\n    ', 'parameters': {'type': 'object', 'properties': {'product_list': {'type': 'array', 'items': {'type': 'string'}, 'description': 'List of product IDs to check inventory for.'}}, 'required': ['product_list'], 'additionalProperties': False}, 'strict': True}], 'tool_choice': 'auto', 'truncation': 'disabled', 'id': 'resp_055b0f8f2d0521180069e9130c88b48193b5f8d5cc0f5ff53c', 'object': 'response', 'status': 'completed', 'created_at': 1776882444, 'completed_at': 1776882445, 'error': None, 'incomplete_details': None, 'output': [{'type': 'function_call', 'id': 'fc_055b0f8f2d0521180069e9130d1ae48193b05603bd6b4e902b', 'agent_reference': {'type': 'agent_reference', 'name': 'inventory-agent', 'version': '3'}, 'response_id': 'resp_055b0f8f2d0521180069e9130c88b48193b5f8d5cc0f5ff53c', 'call_id': 'call_o6JIufetOyiXUI1bVij1WbOy', 'name': 'mcp_inventory_check', 'arguments': '{\"product_list\":[\"PROD0001\"]}', 'status': 'completed'}], 'instructions': \"Inventory Agent Guidelines\\n========================================\\n- Your task is check the inventory status\\n- When user ask to check the inventory for product, send the product name to inventory_check tool.\\n- Return response like inventory levels and status of inventory and the location.\\n\\nInventory Agent Tool\\n-----\\ninventory_check: Takes in product dictionary, return inventory level.\\ninput formatting:\\nproduct_list = ['PROD0045', 'PROD1234']\\n\\nContent Handling Guidelines\\n---------------------------\\n- Do not generate content summaries or remove any data.\\n\", 'usage': {'input_tokens': 197, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 25, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 222}, 'parallel_tool_calls': True, 'agent_reference': {'type': 'agent_reference', 'name': 'inventory-agent', 'version': '3'}, 'content_filters': [{'blocked': False, 'source_type': 'prompt', 'content_filter_raw': [], 'content_filter_results': {'violence': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 917, 'end_offset': 946, 'check_offset': 0}}, {'blocked': False, 'source_type': 'completion', 'content_filter_raw': [], 'content_filter_results': {'self_harm': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'protected_material_code': {'filtered': False, 'detected': False}, 'protected_material_text': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 0, 'end_offset': 1417, 'check_offset': 0}}]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.6,
+      "f1_score": 0.01,
+      "no_error": 0.0,
+      "length_quality": 1.0,
+      "overall": 0.52
+    },
+    "latency_s": 2.23
+  },
+  {
+    "agent": "inventory-agent",
+    "description": "Category inventory check",
+    "query": "Do you have any paint sprayers available?",
+    "response": "{'metadata': {}, 'top_logprobs': 0, 'temperature': 1, 'top_p': 0.98, 'service_tier': 'default', 'model': 'gpt-5.4-mini', 'reasoning': {'effort': 'none'}, 'background': False, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tools': [{'type': 'function', 'name': 'mcp_inventory_check', 'description': '\\n    Check inventory availability for a specific product.\\n\\n    Args:\\n        product_id: The unique product ID to check inventory for\\n\\n    Returns:\\n        Inventory status and availability information\\n    ', 'parameters': {'type': 'object', 'properties': {'product_list': {'type': 'array', 'items': {'type': 'string'}, 'description': 'List of product IDs to check inventory for.'}}, 'required': ['product_list'], 'additionalProperties': False}, 'strict': True}], 'tool_choice': 'auto', 'truncation': 'disabled', 'id': 'resp_05ece9652b2662d50069e9130ecce88197846eade3a6dc9508', 'object': 'response', 'status': 'completed', 'created_at': 1776882446, 'completed_at': 1776882447, 'error': None, 'incomplete_details': None, 'output': [{'type': 'function_call', 'id': 'fc_05ece9652b2662d50069e9130f6df88197bbb4162054793fa7', 'agent_reference': {'type': 'agent_reference', 'name': 'inventory-agent', 'version': '3'}, 'response_id': 'resp_05ece9652b2662d50069e9130ecce88197846eade3a6dc9508', 'call_id': 'call_MWSZVfsYcuPbUOBa2syWB90u', 'name': 'mcp_inventory_check', 'arguments': '{\"product_list\":[\"paint sprayers\"]}', 'status': 'completed'}], 'instructions': \"Inventory Agent Guidelines\\n========================================\\n- Your task is check the inventory status\\n- When user ask to check the inventory for product, send the product name to inventory_check tool.\\n- Return response like inventory levels and status of inventory and the location.\\n\\nInventory Agent Tool\\n-----\\ninventory_check: Takes in product dictionary, return inventory level.\\ninput formatting:\\nproduct_list = ['PROD0045', 'PROD1234']\\n\\nContent Handling Guidelines\\n---------------------------\\n- Do not generate content summaries or remove any data.\\n\", 'usage': {'input_tokens': 198, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 30, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 228}, 'parallel_tool_calls': True, 'agent_reference': {'type': 'agent_reference', 'name': 'inventory-agent', 'version': '3'}, 'content_filters': [{'blocked': False, 'source_type': 'prompt', 'content_filter_raw': [], 'content_filter_results': {'self_harm': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': False, 'detected': False}, 'violence': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}}, 'content_filter_offsets': {'start_offset': 30, 'end_offset': 71, 'check_offset': 0}}, {'blocked': False, 'source_type': 'completion', 'content_filter_raw': [], 'content_filter_results': {'sexual': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'protected_material_code': {'filtered': False, 'detected': False}, 'protected_material_text': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 0, 'end_offset': 1423, 'check_offset': 0}}]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.75,
+      "f1_score": 0.0,
+      "no_error": 0.0,
+      "length_quality": 1.0,
+      "overall": 0.55
+    },
+    "latency_s": 2.37
+  },
+  {
+    "agent": "inventory-agent",
+    "description": "Named product availability",
+    "query": "How many gallons of Midnight Blue paint are in stock?",
+    "response": "{'metadata': {}, 'top_logprobs': 0, 'temperature': 1, 'top_p': 0.98, 'service_tier': 'default', 'model': 'gpt-5.4-mini', 'reasoning': {'effort': 'none'}, 'background': False, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tools': [{'type': 'function', 'name': 'mcp_inventory_check', 'description': '\\n    Check inventory availability for a specific product.\\n\\n    Args:\\n        product_id: The unique product ID to check inventory for\\n\\n    Returns:\\n        Inventory status and availability information\\n    ', 'parameters': {'type': 'object', 'properties': {'product_list': {'type': 'array', 'items': {'type': 'string'}, 'description': 'List of product IDs to check inventory for.'}}, 'required': ['product_list'], 'additionalProperties': False}, 'strict': True}], 'tool_choice': 'auto', 'truncation': 'disabled', 'id': 'resp_0e47d960ef36c3d90069e91311192c8194b81df8ff35fd9afc', 'object': 'response', 'status': 'completed', 'created_at': 1776882449, 'completed_at': 1776882450, 'error': None, 'incomplete_details': None, 'output': [{'type': 'function_call', 'id': 'fc_0e47d960ef36c3d90069e91311b5788194a3f83ed83df26762', 'agent_reference': {'type': 'agent_reference', 'name': 'inventory-agent', 'version': '3'}, 'response_id': 'resp_0e47d960ef36c3d90069e91311192c8194b81df8ff35fd9afc', 'call_id': 'call_grIhplsZzosG5YRaUA6ChlRs', 'name': 'mcp_inventory_check', 'arguments': '{\"product_list\":[\"Midnight Blue paint\"]}', 'status': 'completed'}], 'instructions': \"Inventory Agent Guidelines\\n========================================\\n- Your task is check the inventory status\\n- When user ask to check the inventory for product, send the product name to inventory_check tool.\\n- Return response like inventory levels and status of inventory and the location.\\n\\nInventory Agent Tool\\n-----\\ninventory_check: Takes in product dictionary, return inventory level.\\ninput formatting:\\nproduct_list = ['PROD0045', 'PROD1234']\\n\\nContent Handling Guidelines\\n---------------------------\\n- Do not generate content summaries or remove any data.\\n\", 'usage': {'input_tokens': 200, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 25, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 225}, 'parallel_tool_calls': True, 'agent_reference': {'type': 'agent_reference', 'name': 'inventory-agent', 'version': '3'}, 'content_filters': [{'blocked': False, 'source_type': 'prompt', 'content_filter_raw': [], 'content_filter_results': {'hate': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': False, 'detected': False}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}}, 'content_filter_offsets': {'start_offset': 30, 'end_offset': 83, 'check_offset': 0}}, {'blocked': False, 'source_type': 'completion', 'content_filter_raw': [], 'content_filter_results': {'hate': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'protected_material_text': {'filtered': False, 'detected': False}, 'protected_material_code': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 0, 'end_offset': 1428, 'check_offset': 0}}]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.6,
+      "f1_score": 0.01,
+      "no_error": 0.0,
+      "length_quality": 1.0,
+      "overall": 0.52
+    },
+    "latency_s": 2.32
+  },
+  {
+    "agent": "inventory-agent",
+    "description": "Multiple product IDs check",
+    "query": "Check inventory for PROD0033 and PROD0045",
+    "response": "{'metadata': {}, 'top_logprobs': 0, 'temperature': 1, 'top_p': 0.98, 'service_tier': 'default', 'model': 'gpt-5.4-mini', 'reasoning': {'effort': 'none'}, 'background': False, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tools': [{'type': 'function', 'name': 'mcp_inventory_check', 'description': '\\n    Check inventory availability for a specific product.\\n\\n    Args:\\n        product_id: The unique product ID to check inventory for\\n\\n    Returns:\\n        Inventory status and availability information\\n    ', 'parameters': {'type': 'object', 'properties': {'product_list': {'type': 'array', 'items': {'type': 'string'}, 'description': 'List of product IDs to check inventory for.'}}, 'required': ['product_list'], 'additionalProperties': False}, 'strict': True}], 'tool_choice': 'auto', 'truncation': 'disabled', 'id': 'resp_0182e5de65f24be40069e913136f008194a52ffcd122e0d2fa', 'object': 'response', 'status': 'completed', 'created_at': 1776882451, 'completed_at': 1776882452, 'error': None, 'incomplete_details': None, 'output': [{'type': 'function_call', 'id': 'fc_0182e5de65f24be40069e9131402b48194879b7937f8639c5b', 'agent_reference': {'type': 'agent_reference', 'name': 'inventory-agent', 'version': '3'}, 'response_id': 'resp_0182e5de65f24be40069e913136f008194a52ffcd122e0d2fa', 'call_id': 'call_tHSAWXtr2Npxg5Asm27MbmTC', 'name': 'mcp_inventory_check', 'arguments': '{\"product_list\":[\"PROD0033\",\"PROD0045\"]}', 'status': 'completed'}], 'instructions': \"Inventory Agent Guidelines\\n========================================\\n- Your task is check the inventory status\\n- When user ask to check the inventory for product, send the product name to inventory_check tool.\\n- Return response like inventory levels and status of inventory and the location.\\n\\nInventory Agent Tool\\n-----\\ninventory_check: Takes in product dictionary, return inventory level.\\ninput formatting:\\nproduct_list = ['PROD0045', 'PROD1234']\\n\\nContent Handling Guidelines\\n---------------------------\\n- Do not generate content summaries or remove any data.\\n\", 'usage': {'input_tokens': 199, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 30, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 229}, 'parallel_tool_calls': True, 'agent_reference': {'type': 'agent_reference', 'name': 'inventory-agent', 'version': '3'}, 'content_filters': [{'blocked': False, 'source_type': 'prompt', 'content_filter_raw': [], 'content_filter_results': {'violence': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': False, 'detected': False}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}}, 'content_filter_offsets': {'start_offset': 30, 'end_offset': 71, 'check_offset': 0}}, {'blocked': False, 'source_type': 'completion', 'content_filter_raw': [], 'content_filter_results': {'violence': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'protected_material_text': {'filtered': False, 'detected': False}, 'protected_material_code': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 0, 'end_offset': 1428, 'check_offset': 0}}]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.8,
+      "f1_score": 0.01,
+      "no_error": 0.0,
+      "length_quality": 1.0,
+      "overall": 0.56
+    },
+    "latency_s": 2.28
+  },
+  {
+    "agent": "inventory-agent",
+    "description": "Product by name lookup",
+    "query": "Is the Deep Forest paint shade available?",
+    "response": "I can check that, but I need the product ID or SKU for the Deep Forest paint shade to verify inventory.",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.5,
+      "f1_score": 0.09,
+      "no_error": 1.0,
+      "length_quality": 1.0,
+      "overall": 0.72
+    },
+    "latency_s": 4.45
+  },
+  {
+    "agent": "inventory-agent",
+    "description": "Accessory availability check",
+    "query": "Do you have drop cloths in stock?",
+    "response": "{'metadata': {}, 'top_logprobs': 0, 'temperature': 1, 'top_p': 0.98, 'service_tier': 'default', 'model': 'gpt-5.4-mini', 'reasoning': {'effort': 'none'}, 'background': False, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tools': [{'type': 'function', 'name': 'mcp_inventory_check', 'description': '\\n    Check inventory availability for a specific product.\\n\\n    Args:\\n        product_id: The unique product ID to check inventory for\\n\\n    Returns:\\n        Inventory status and availability information\\n    ', 'parameters': {'type': 'object', 'properties': {'product_list': {'type': 'array', 'items': {'type': 'string'}, 'description': 'List of product IDs to check inventory for.'}}, 'required': ['product_list'], 'additionalProperties': False}, 'strict': True}], 'tool_choice': 'auto', 'truncation': 'disabled', 'id': 'resp_0a6c5ec90e6411a40069e9131a2638819685303c7ab63634b0', 'object': 'response', 'status': 'completed', 'created_at': 1776882458, 'completed_at': 1776882459, 'error': None, 'incomplete_details': None, 'output': [{'type': 'function_call', 'id': 'fc_0a6c5ec90e6411a40069e9131ab9f881968899a7a3131781ca', 'agent_reference': {'type': 'agent_reference', 'name': 'inventory-agent', 'version': '3'}, 'response_id': 'resp_0a6c5ec90e6411a40069e9131a2638819685303c7ab63634b0', 'call_id': 'call_D2y01wIUvKcoRJGLBUsxDzXq', 'name': 'mcp_inventory_check', 'arguments': '{\"product_list\":[\"drop cloths\"]}', 'status': 'completed'}], 'instructions': \"Inventory Agent Guidelines\\n========================================\\n- Your task is check the inventory status\\n- When user ask to check the inventory for product, send the product name to inventory_check tool.\\n- Return response like inventory levels and status of inventory and the location.\\n\\nInventory Agent Tool\\n-----\\ninventory_check: Takes in product dictionary, return inventory level.\\ninput formatting:\\nproduct_list = ['PROD0045', 'PROD1234']\\n\\nContent Handling Guidelines\\n---------------------------\\n- Do not generate content summaries or remove any data.\\n\", 'usage': {'input_tokens': 198, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 30, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 228}, 'parallel_tool_calls': True, 'agent_reference': {'type': 'agent_reference', 'name': 'inventory-agent', 'version': '3'}, 'content_filters': [{'blocked': False, 'source_type': 'prompt', 'content_filter_raw': [], 'content_filter_results': {'self_harm': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': False, 'detected': False}, 'hate': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}}, 'content_filter_offsets': {'start_offset': 917, 'end_offset': 950, 'check_offset': 0}}, {'blocked': False, 'source_type': 'completion', 'content_filter_raw': [], 'content_filter_results': {'violence': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'protected_material_text': {'filtered': False, 'detected': False}, 'protected_material_code': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 0, 'end_offset': 1420, 'check_offset': 0}}]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.5,
+      "f1_score": 0.0,
+      "no_error": 0.0,
+      "length_quality": 1.0,
+      "overall": 0.5
+    },
+    "latency_s": 2.21
+  },
+  {
+    "agent": "cart-manager",
+    "description": "Add item to cart",
+    "query": "Add 2 units of PROD0001 to my cart",
+    "response": "{\n  \"answer\": \"I've added 2 units of PROD0001 to your cart.\",\n  \"cart\": [\n    {\n      \"product_id\": \"PROD0001\",\n      \"name\": \"PROD0001\",\n      \"quantity\": 2,\n      \"price\": 0,\n      \"total\": 0\n    }\n  ],\n  \"products\": \"\",\n  \"discount_percentage\": \"\",\n  \"additional_data\": \"\"\n}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 1.0,
+      "f1_score": 0.12,
+      "valid_json": 1.0,
+      "json_fields": 1.0,
+      "no_error": 1.0,
+      "length_quality": 1.0,
+      "overall": 0.87
+    },
+    "latency_s": 2.59
+  },
+  {
+    "agent": "cart-manager",
+    "description": "View cart contents",
+    "query": "Show me what's in my cart",
+    "response": "{\n  \"answer\": \"Your cart is currently empty. If you'd like, I can help you browse products or add items to your cart.\",\n  \"cart\": [],\n  \"products\": \"\",\n  \"discount_percentage\": \"\",\n  \"additional_data\": \"\"\n}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 1.0,
+      "f1_score": 0.06,
+      "valid_json": 1.0,
+      "json_fields": 1.0,
+      "no_error": 1.0,
+      "length_quality": 1.0,
+      "overall": 0.87
+    },
+    "latency_s": 2.39
+  },
+  {
+    "agent": "cart-manager",
+    "description": "Remove item from cart",
+    "query": "Remove PROD0001 from my cart",
+    "response": "{\"answer\":\"I’ve removed PROD0001 from your cart. Here’s your updated cart:\",\"cart\":[],\"products\":\"\",\"discount_percentage\":\"\",\"additional_data\":\"\"}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 1.0,
+      "f1_score": 0.17,
+      "valid_json": 1.0,
+      "json_fields": 1.0,
+      "no_error": 1.0,
+      "length_quality": 1.0,
+      "overall": 0.88
+    },
+    "latency_s": 2.5
+  },
+  {
+    "agent": "cart-manager",
+    "description": "Update item quantity",
+    "query": "Change the quantity of PROD0001 to 5",
+    "response": "{\"answer\":\"I've updated PROD0001 to quantity 5 in your cart.\",\"cart\":[{\"product_id\":\"PROD0001\",\"name\":\"PROD0001\",\"quantity\":5,\"price\":0,\"total\":0}],\"products\":\"\",\"discount_percentage\":\"\",\"additional_data\":\"\"}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 1.0,
+      "f1_score": 0.29,
+      "valid_json": 1.0,
+      "json_fields": 1.0,
+      "no_error": 1.0,
+      "length_quality": 1.0,
+      "overall": 0.9
+    },
+    "latency_s": 2.55
+  },
+  {
+    "agent": "cart-manager",
+    "description": "Clear cart",
+    "query": "Clear my entire cart",
+    "response": "{\"answer\":\"Your cart has been cleared successfully. If you'd like, I can help you find products to add next.\",\"cart\":[],\"products\":\"You may want to browse related essentials for your next project once you're ready.\",\"discount_percentage\":\"\",\"additional_data\":\"\"}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.67,
+      "f1_score": 0.06,
+      "valid_json": 1.0,
+      "json_fields": 1.0,
+      "no_error": 1.0,
+      "length_quality": 1.0,
+      "overall": 0.82
+    },
+    "latency_s": 2.61
+  },
+  {
+    "agent": "cart-manager",
+    "description": "Checkout flow (expects Miami store reference)",
+    "query": "I'd like to check out now please",
+    "response": "{\"answer\":\"Here’s your cart summary and checkout details. You may pick up your products from the closest Zava retail outlet, located in Miami, Florida. If you'd like, I can also help you review items before you complete your purchase.\",\"cart\":[],\"products\":\"\",\"discount_percentage\":\"\",\"additional_data\":\"\"}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.6,
+      "f1_score": 0.1,
+      "valid_json": 1.0,
+      "json_fields": 1.0,
+      "no_error": 1.0,
+      "length_quality": 1.0,
+      "overall": 0.81
+    },
+    "latency_s": 2.67
+  },
+  {
+    "agent": "interior-designer",
+    "description": "Color scheme recommendation",
+    "query": "I need help choosing paint colors for a modern living room with grey furniture",
+    "response": "{'metadata': {}, 'top_logprobs': 0, 'temperature': 1, 'top_p': 0.98, 'service_tier': 'default', 'model': 'gpt-5.4-mini', 'reasoning': {'effort': 'none'}, 'background': False, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tools': [{'type': 'function', 'name': 'mcp_product_recommendations', 'description': \"\\n    Search for product recommendations based on user query.\\n\\n    Args:\\n        question: Natural language user query describing what products they're looking for\\n\\n    Returns:\\n        Product details including ID, name, category, description, image URL, and price\\n    \", 'parameters': {'properties': {'question': {'title': 'Question', 'type': 'string'}}, 'required': ['question'], 'title': 'get_product_recommendationsArguments', 'type': 'object', 'additionalProperties': False}, 'strict': True}], 'tool_choice': 'auto', 'truncation': 'disabled', 'id': 'resp_0e0ce44a8f388e880069e9132bbdf48197b29117873132a177', 'object': 'response', 'status': 'completed', 'created_at': 1776882475, 'completed_at': 1776882477, 'error': None, 'incomplete_details': None, 'output': [{'type': 'function_call', 'id': 'fc_0e0ce44a8f388e880069e9132c9280819794c6b2936261a093', 'agent_reference': {'type': 'agent_reference', 'name': 'interior-designer', 'version': '3'}, 'response_id': 'resp_0e0ce44a8f388e880069e9132bbdf48197b29117873132a177', 'call_id': 'call_RwHKv76mQqXTgu5Y1LVazPKy', 'name': 'mcp_product_recommendations', 'arguments': '{\"question\":\"Paint color recommendations for a modern living room with grey furniture. Please suggest coordinating interior wall paint products available in the catalog, suitable for a contemporary style.\"}', 'status': 'completed'}], 'instructions': 'Interior Design Agent Guidelines\\n========================================\\n- You are a Interior Designer sales person working for Zava and help customers who need help in DIY Projects and other interior design queries\\n- Your main tasks are the following: recommending and upselling products, creating images\\n- You will get input in the form of a json, having:\\n[\\n    {\\n        \"Conversation_history\":the Conversation thats going on,\\n        \"image_url\": Image based on which you need to recreate some image\\n        \"image_description\": If there is an image attached, the description or it will be empty\\n        \"products_available\": A list of products, from where you can give recommendations\\n        \"user_last_query\": The last query from user\\n    }\\n]\\n- You will always recommend product from the products_available.\\n- You will keep asking questions to the user and keep recommending.\\n- When you get an image, reply saying \"I see you uploaded...\"\\n- If asked to change/modify/style an object, only then use create_image, otherwise keep recommending and upselling as usual.\\n- In your answer do not mention e.g. word instead use Example, such as or like based on the sentence.\\n\\nReturn response in following json format\\n\\nanswer: your answer,\\nimage_output: if there, otherwise empty\\nproducts: [\\n  {\\n    \"id\": \"<ProductID>\",\\n    \"name\": \"<ProductName>\",\\n    \"type\": \"<Singular Category Name>\",\\n    \"description\": \"<ProductDescription>\",\\n    \"imageURL\": \"<ImageURL>\",\\n    \"punchLine\": \"<ProductPunchLine>\",\\n    \"price\": \"<FormattedPriceWithDollarSign>\"\\n  }, {..}\\n  ...\\n]\\n\\n\\nInterior Design Agent Tool\\n========================================\\ncreate_image: Can create image as per users requirement such as repainting a given room in a different color (make sure the path and prompt is shared as is) given a prompt and path.\\n\\nExample Conversation\\n========================================\\nUser: Want paint recommendation for my living room\\nYou: Give some paints options, ask dimension, ask image\\nUser: Gives dimensions, image (maybe)\\nYou: Recommends based on the color, calculate how much paint maybe required, upsell for sprayer, tape (saying its good)\\n\\nContent Handling Guidelines\\n========================================\\n- Do not generate content summaries or remove any data.\\n\\n---\\nIMPORTANT: Your entire response must be a valid JSON array as described above. Do not include any other text or formatting.\\n\\n', 'usage': {'input_tokens': 610, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 51, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 661}, 'parallel_tool_calls': True, 'agent_reference': {'type': 'agent_reference', 'name': 'interior-designer', 'version': '3'}, 'content_filters': [{'blocked': False, 'source_type': 'prompt', 'content_filter_raw': [], 'content_filter_results': {'sexual': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': False, 'detected': False}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}}, 'content_filter_offsets': {'start_offset': 30, 'end_offset': 108, 'check_offset': 0}}, {'blocked': False, 'source_type': 'completion', 'content_filter_raw': [], 'content_filter_results': {'hate': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'protected_material_code': {'filtered': False, 'detected': False}, 'protected_material_text': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 0, 'end_offset': 1664, 'check_offset': 0}}]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.86,
+      "f1_score": 0.03,
+      "no_error": 0.0,
+      "length_quality": 0.5,
+      "overall": 0.48
+    },
+    "latency_s": 2.84
+  },
+  {
+    "agent": "interior-designer",
+    "description": "Finish type advice",
+    "query": "What paint finish should I use for a kitchen?",
+    "response": "{'metadata': {}, 'top_logprobs': 0, 'temperature': 1, 'top_p': 0.98, 'service_tier': 'default', 'model': 'gpt-5.4-mini', 'reasoning': {'effort': 'none'}, 'background': False, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tools': [{'type': 'function', 'name': 'mcp_product_recommendations', 'description': \"\\n    Search for product recommendations based on user query.\\n\\n    Args:\\n        question: Natural language user query describing what products they're looking for\\n\\n    Returns:\\n        Product details including ID, name, category, description, image URL, and price\\n    \", 'parameters': {'properties': {'question': {'title': 'Question', 'type': 'string'}}, 'required': ['question'], 'title': 'get_product_recommendationsArguments', 'type': 'object', 'additionalProperties': False}, 'strict': True}], 'tool_choice': 'auto', 'truncation': 'disabled', 'id': 'resp_04121965b2d08c650069e9132e8ce4819582b305baac5c99fe', 'object': 'response', 'status': 'completed', 'created_at': 1776882478, 'completed_at': 1776882479, 'error': None, 'incomplete_details': None, 'output': [{'type': 'function_call', 'id': 'fc_04121965b2d08c650069e9132f15c4819581d0cb67afa20a21', 'agent_reference': {'type': 'agent_reference', 'name': 'interior-designer', 'version': '3'}, 'response_id': 'resp_04121965b2d08c650069e9132e8ce4819582b305baac5c99fe', 'call_id': 'call_CWJwiIAfbhZc4IGFTDw80XLF', 'name': 'mcp_product_recommendations', 'arguments': '{\"question\":\"Paint finish recommendations for a kitchen interior, including durable and washable options from available products\"}', 'status': 'completed'}], 'instructions': 'Interior Design Agent Guidelines\\n========================================\\n- You are a Interior Designer sales person working for Zava and help customers who need help in DIY Projects and other interior design queries\\n- Your main tasks are the following: recommending and upselling products, creating images\\n- You will get input in the form of a json, having:\\n[\\n    {\\n        \"Conversation_history\":the Conversation thats going on,\\n        \"image_url\": Image based on which you need to recreate some image\\n        \"image_description\": If there is an image attached, the description or it will be empty\\n        \"products_available\": A list of products, from where you can give recommendations\\n        \"user_last_query\": The last query from user\\n    }\\n]\\n- You will always recommend product from the products_available.\\n- You will keep asking questions to the user and keep recommending.\\n- When you get an image, reply saying \"I see you uploaded...\"\\n- If asked to change/modify/style an object, only then use create_image, otherwise keep recommending and upselling as usual.\\n- In your answer do not mention e.g. word instead use Example, such as or like based on the sentence.\\n\\nReturn response in following json format\\n\\nanswer: your answer,\\nimage_output: if there, otherwise empty\\nproducts: [\\n  {\\n    \"id\": \"<ProductID>\",\\n    \"name\": \"<ProductName>\",\\n    \"type\": \"<Singular Category Name>\",\\n    \"description\": \"<ProductDescription>\",\\n    \"imageURL\": \"<ImageURL>\",\\n    \"punchLine\": \"<ProductPunchLine>\",\\n    \"price\": \"<FormattedPriceWithDollarSign>\"\\n  }, {..}\\n  ...\\n]\\n\\n\\nInterior Design Agent Tool\\n========================================\\ncreate_image: Can create image as per users requirement such as repainting a given room in a different color (make sure the path and prompt is shared as is) given a prompt and path.\\n\\nExample Conversation\\n========================================\\nUser: Want paint recommendation for my living room\\nYou: Give some paints options, ask dimension, ask image\\nUser: Gives dimensions, image (maybe)\\nYou: Recommends based on the color, calculate how much paint maybe required, upsell for sprayer, tape (saying its good)\\n\\nContent Handling Guidelines\\n========================================\\n- Do not generate content summaries or remove any data.\\n\\n---\\nIMPORTANT: Your entire response must be a valid JSON array as described above. Do not include any other text or formatting.\\n\\n', 'usage': {'input_tokens': 606, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 37, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 643}, 'parallel_tool_calls': True, 'agent_reference': {'type': 'agent_reference', 'name': 'interior-designer', 'version': '3'}, 'content_filters': [{'blocked': False, 'source_type': 'prompt', 'content_filter_raw': [], 'content_filter_results': {'violence': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': False, 'detected': False}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}}, 'content_filter_offsets': {'start_offset': 917, 'end_offset': 962, 'check_offset': 0}}, {'blocked': False, 'source_type': 'completion', 'content_filter_raw': [], 'content_filter_results': {'violence': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'protected_material_code': {'filtered': False, 'detected': False}, 'protected_material_text': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 0, 'end_offset': 1588, 'check_offset': 0}}]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.67,
+      "f1_score": 0.02,
+      "no_error": 0.0,
+      "length_quality": 0.5,
+      "overall": 0.44
+    },
+    "latency_s": 2.39
+  },
+  {
+    "agent": "interior-designer",
+    "description": "Space-enhancing color advice",
+    "query": "I have a small bedroom with low light. What colors would make it feel bigger?",
+    "response": "{'metadata': {}, 'top_logprobs': 0, 'temperature': 1, 'top_p': 0.98, 'service_tier': 'default', 'model': 'gpt-5.4-mini', 'reasoning': {'effort': 'none'}, 'background': False, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tools': [{'type': 'function', 'name': 'mcp_product_recommendations', 'description': \"\\n    Search for product recommendations based on user query.\\n\\n    Args:\\n        question: Natural language user query describing what products they're looking for\\n\\n    Returns:\\n        Product details including ID, name, category, description, image URL, and price\\n    \", 'parameters': {'properties': {'question': {'title': 'Question', 'type': 'string'}}, 'required': ['question'], 'title': 'get_product_recommendationsArguments', 'type': 'object', 'additionalProperties': False}, 'strict': True}], 'tool_choice': 'auto', 'truncation': 'disabled', 'id': 'resp_00df1bc77a67186f0069e91330fd5881938e37ef449fca6720', 'object': 'response', 'status': 'completed', 'created_at': 1776882481, 'completed_at': 1776882482, 'error': None, 'incomplete_details': None, 'output': [{'type': 'function_call', 'id': 'fc_00df1bc77a67186f0069e9133187048193a2f35ea4664af760', 'agent_reference': {'type': 'agent_reference', 'name': 'interior-designer', 'version': '3'}, 'response_id': 'resp_00df1bc77a67186f0069e91330fd5881938e37ef449fca6720', 'call_id': 'call_zRwZoy2E7kQzz9vys2TltXFc', 'name': 'mcp_product_recommendations', 'arguments': '{\"question\":\"Recommend interior paint products for a small bedroom with low light that would make it feel bigger. Prioritize light, airy colors and include options suitable for bedrooms.\"}', 'status': 'completed'}], 'instructions': 'Interior Design Agent Guidelines\\n========================================\\n- You are a Interior Designer sales person working for Zava and help customers who need help in DIY Projects and other interior design queries\\n- Your main tasks are the following: recommending and upselling products, creating images\\n- You will get input in the form of a json, having:\\n[\\n    {\\n        \"Conversation_history\":the Conversation thats going on,\\n        \"image_url\": Image based on which you need to recreate some image\\n        \"image_description\": If there is an image attached, the description or it will be empty\\n        \"products_available\": A list of products, from where you can give recommendations\\n        \"user_last_query\": The last query from user\\n    }\\n]\\n- You will always recommend product from the products_available.\\n- You will keep asking questions to the user and keep recommending.\\n- When you get an image, reply saying \"I see you uploaded...\"\\n- If asked to change/modify/style an object, only then use create_image, otherwise keep recommending and upselling as usual.\\n- In your answer do not mention e.g. word instead use Example, such as or like based on the sentence.\\n\\nReturn response in following json format\\n\\nanswer: your answer,\\nimage_output: if there, otherwise empty\\nproducts: [\\n  {\\n    \"id\": \"<ProductID>\",\\n    \"name\": \"<ProductName>\",\\n    \"type\": \"<Singular Category Name>\",\\n    \"description\": \"<ProductDescription>\",\\n    \"imageURL\": \"<ImageURL>\",\\n    \"punchLine\": \"<ProductPunchLine>\",\\n    \"price\": \"<FormattedPriceWithDollarSign>\"\\n  }, {..}\\n  ...\\n]\\n\\n\\nInterior Design Agent Tool\\n========================================\\ncreate_image: Can create image as per users requirement such as repainting a given room in a different color (make sure the path and prompt is shared as is) given a prompt and path.\\n\\nExample Conversation\\n========================================\\nUser: Want paint recommendation for my living room\\nYou: Give some paints options, ask dimension, ask image\\nUser: Gives dimensions, image (maybe)\\nYou: Recommends based on the color, calculate how much paint maybe required, upsell for sprayer, tape (saying its good)\\n\\nContent Handling Guidelines\\n========================================\\n- Do not generate content summaries or remove any data.\\n\\n---\\nIMPORTANT: Your entire response must be a valid JSON array as described above. Do not include any other text or formatting.\\n\\n', 'usage': {'input_tokens': 613, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 52, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 665}, 'parallel_tool_calls': True, 'agent_reference': {'type': 'agent_reference', 'name': 'interior-designer', 'version': '3'}, 'content_filters': [{'blocked': False, 'source_type': 'prompt', 'content_filter_raw': [], 'content_filter_results': {'jailbreak': {'filtered': False, 'detected': False}, 'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}}, 'content_filter_offsets': {'start_offset': 917, 'end_offset': 994, 'check_offset': 0}}, {'blocked': False, 'source_type': 'completion', 'content_filter_raw': [], 'content_filter_results': {'self_harm': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'protected_material_code': {'filtered': False, 'detected': False}, 'protected_material_text': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 0, 'end_offset': 1646, 'check_offset': 0}}]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.71,
+      "f1_score": 0.03,
+      "no_error": 0.0,
+      "length_quality": 0.5,
+      "overall": 0.45
+    },
+    "latency_s": 2.49
+  },
+  {
+    "agent": "interior-designer",
+    "description": "Complementary accessories upsell",
+    "query": "Can you suggest accessories to go with a navy blue accent wall?",
+    "response": "{'metadata': {}, 'top_logprobs': 0, 'temperature': 1, 'top_p': 0.98, 'service_tier': 'default', 'model': 'gpt-5.4-mini', 'reasoning': {'effort': 'none'}, 'background': False, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tools': [{'type': 'function', 'name': 'mcp_product_recommendations', 'description': \"\\n    Search for product recommendations based on user query.\\n\\n    Args:\\n        question: Natural language user query describing what products they're looking for\\n\\n    Returns:\\n        Product details including ID, name, category, description, image URL, and price\\n    \", 'parameters': {'properties': {'question': {'title': 'Question', 'type': 'string'}}, 'required': ['question'], 'title': 'get_product_recommendationsArguments', 'type': 'object', 'additionalProperties': False}, 'strict': True}], 'tool_choice': 'auto', 'truncation': 'disabled', 'id': 'resp_0f81ecff830df6b00069e91333902481908b0d957ed7643738', 'object': 'response', 'status': 'completed', 'created_at': 1776882483, 'completed_at': 1776882484, 'error': None, 'incomplete_details': None, 'output': [{'type': 'function_call', 'id': 'fc_0f81ecff830df6b00069e9133420ec8190badef0c9c31c4433', 'agent_reference': {'type': 'agent_reference', 'name': 'interior-designer', 'version': '3'}, 'response_id': 'resp_0f81ecff830df6b00069e91333902481908b0d957ed7643738', 'call_id': 'call_hbastWCn0IzidSYyqdjwGfB0', 'name': 'mcp_product_recommendations', 'arguments': '{\"question\":\"Suggest accessories to go with a navy blue accent wall for interior design. Recommend suitable decor accessories and styling items.\"}', 'status': 'completed'}], 'instructions': 'Interior Design Agent Guidelines\\n========================================\\n- You are a Interior Designer sales person working for Zava and help customers who need help in DIY Projects and other interior design queries\\n- Your main tasks are the following: recommending and upselling products, creating images\\n- You will get input in the form of a json, having:\\n[\\n    {\\n        \"Conversation_history\":the Conversation thats going on,\\n        \"image_url\": Image based on which you need to recreate some image\\n        \"image_description\": If there is an image attached, the description or it will be empty\\n        \"products_available\": A list of products, from where you can give recommendations\\n        \"user_last_query\": The last query from user\\n    }\\n]\\n- You will always recommend product from the products_available.\\n- You will keep asking questions to the user and keep recommending.\\n- When you get an image, reply saying \"I see you uploaded...\"\\n- If asked to change/modify/style an object, only then use create_image, otherwise keep recommending and upselling as usual.\\n- In your answer do not mention e.g. word instead use Example, such as or like based on the sentence.\\n\\nReturn response in following json format\\n\\nanswer: your answer,\\nimage_output: if there, otherwise empty\\nproducts: [\\n  {\\n    \"id\": \"<ProductID>\",\\n    \"name\": \"<ProductName>\",\\n    \"type\": \"<Singular Category Name>\",\\n    \"description\": \"<ProductDescription>\",\\n    \"imageURL\": \"<ImageURL>\",\\n    \"punchLine\": \"<ProductPunchLine>\",\\n    \"price\": \"<FormattedPriceWithDollarSign>\"\\n  }, {..}\\n  ...\\n]\\n\\n\\nInterior Design Agent Tool\\n========================================\\ncreate_image: Can create image as per users requirement such as repainting a given room in a different color (make sure the path and prompt is shared as is) given a prompt and path.\\n\\nExample Conversation\\n========================================\\nUser: Want paint recommendation for my living room\\nYou: Give some paints options, ask dimension, ask image\\nUser: Gives dimensions, image (maybe)\\nYou: Recommends based on the color, calculate how much paint maybe required, upsell for sprayer, tape (saying its good)\\n\\nContent Handling Guidelines\\n========================================\\n- Do not generate content summaries or remove any data.\\n\\n---\\nIMPORTANT: Your entire response must be a valid JSON array as described above. Do not include any other text or formatting.\\n\\n', 'usage': {'input_tokens': 609, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 43, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 652}, 'parallel_tool_calls': True, 'agent_reference': {'type': 'agent_reference', 'name': 'interior-designer', 'version': '3'}, 'content_filters': [{'blocked': False, 'source_type': 'prompt', 'content_filter_raw': [], 'content_filter_results': {'self_harm': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 30, 'end_offset': 93, 'check_offset': 0}}, {'blocked': False, 'source_type': 'completion', 'content_filter_raw': [], 'content_filter_results': {'self_harm': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}, 'protected_material_text': {'filtered': False, 'detected': False}, 'protected_material_code': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 0, 'end_offset': 1604, 'check_offset': 0}}]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.83,
+      "f1_score": 0.02,
+      "no_error": 0.0,
+      "length_quality": 0.5,
+      "overall": 0.47
+    },
+    "latency_s": 2.68
+  },
+  {
+    "agent": "interior-designer",
+    "description": "Trend awareness",
+    "query": "What's trending in home paint colors this year?",
+    "response": "{'metadata': {}, 'top_logprobs': 0, 'temperature': 1, 'top_p': 0.98, 'service_tier': 'default', 'model': 'gpt-5.4-mini', 'reasoning': {'effort': 'none'}, 'background': False, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tools': [{'type': 'function', 'name': 'mcp_product_recommendations', 'description': \"\\n    Search for product recommendations based on user query.\\n\\n    Args:\\n        question: Natural language user query describing what products they're looking for\\n\\n    Returns:\\n        Product details including ID, name, category, description, image URL, and price\\n    \", 'parameters': {'properties': {'question': {'title': 'Question', 'type': 'string'}}, 'required': ['question'], 'title': 'get_product_recommendationsArguments', 'type': 'object', 'additionalProperties': False}, 'strict': True}], 'tool_choice': 'auto', 'truncation': 'disabled', 'id': 'resp_0095182fb55bf6b20069e913361abc8195a988d2fc853bc269', 'object': 'response', 'status': 'completed', 'created_at': 1776882486, 'completed_at': 1776882487, 'error': None, 'incomplete_details': None, 'output': [{'type': 'function_call', 'id': 'fc_0095182fb55bf6b20069e91336b5b88195b3920676216bb23b', 'agent_reference': {'type': 'agent_reference', 'name': 'interior-designer', 'version': '3'}, 'response_id': 'resp_0095182fb55bf6b20069e913361abc8195a988d2fc853bc269', 'call_id': 'call_kMsHvwAHK5CKCLkeSBGmtw0D', 'name': 'mcp_product_recommendations', 'arguments': '{\"question\":\"Trending home paint colors this year for interior walls, with product recommendations suitable for modern homes and DIY interior design projects.\"}', 'status': 'completed'}], 'instructions': 'Interior Design Agent Guidelines\\n========================================\\n- You are a Interior Designer sales person working for Zava and help customers who need help in DIY Projects and other interior design queries\\n- Your main tasks are the following: recommending and upselling products, creating images\\n- You will get input in the form of a json, having:\\n[\\n    {\\n        \"Conversation_history\":the Conversation thats going on,\\n        \"image_url\": Image based on which you need to recreate some image\\n        \"image_description\": If there is an image attached, the description or it will be empty\\n        \"products_available\": A list of products, from where you can give recommendations\\n        \"user_last_query\": The last query from user\\n    }\\n]\\n- You will always recommend product from the products_available.\\n- You will keep asking questions to the user and keep recommending.\\n- When you get an image, reply saying \"I see you uploaded...\"\\n- If asked to change/modify/style an object, only then use create_image, otherwise keep recommending and upselling as usual.\\n- In your answer do not mention e.g. word instead use Example, such as or like based on the sentence.\\n\\nReturn response in following json format\\n\\nanswer: your answer,\\nimage_output: if there, otherwise empty\\nproducts: [\\n  {\\n    \"id\": \"<ProductID>\",\\n    \"name\": \"<ProductName>\",\\n    \"type\": \"<Singular Category Name>\",\\n    \"description\": \"<ProductDescription>\",\\n    \"imageURL\": \"<ImageURL>\",\\n    \"punchLine\": \"<ProductPunchLine>\",\\n    \"price\": \"<FormattedPriceWithDollarSign>\"\\n  }, {..}\\n  ...\\n]\\n\\n\\nInterior Design Agent Tool\\n========================================\\ncreate_image: Can create image as per users requirement such as repainting a given room in a different color (make sure the path and prompt is shared as is) given a prompt and path.\\n\\nExample Conversation\\n========================================\\nUser: Want paint recommendation for my living room\\nYou: Give some paints options, ask dimension, ask image\\nUser: Gives dimensions, image (maybe)\\nYou: Recommends based on the color, calculate how much paint maybe required, upsell for sprayer, tape (saying its good)\\n\\nContent Handling Guidelines\\n========================================\\n- Do not generate content summaries or remove any data.\\n\\n---\\nIMPORTANT: Your entire response must be a valid JSON array as described above. Do not include any other text or formatting.\\n\\n', 'usage': {'input_tokens': 605, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 44, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 649}, 'parallel_tool_calls': True, 'agent_reference': {'type': 'agent_reference', 'name': 'interior-designer', 'version': '3'}, 'content_filters': [{'blocked': False, 'source_type': 'prompt', 'content_filter_raw': [], 'content_filter_results': {'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 30, 'end_offset': 77, 'check_offset': 0}}, {'blocked': False, 'source_type': 'completion', 'content_filter_raw': [], 'content_filter_results': {'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'protected_material_code': {'filtered': False, 'detected': False}, 'protected_material_text': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 0, 'end_offset': 1618, 'check_offset': 0}}]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.8,
+      "f1_score": 0.01,
+      "no_error": 0.0,
+      "length_quality": 0.5,
+      "overall": 0.46
+    },
+    "latency_s": 2.56
+  },
+  {
+    "agent": "interior-designer",
+    "description": "Room-specific finish recommendation",
+    "query": "I want to redo my bathroom. Should I use matte or glossy paint?",
+    "response": "{'metadata': {}, 'top_logprobs': 0, 'temperature': 1, 'top_p': 0.98, 'service_tier': 'default', 'model': 'gpt-5.4-mini', 'reasoning': {'effort': 'none'}, 'background': False, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tools': [{'type': 'function', 'name': 'mcp_product_recommendations', 'description': \"\\n    Search for product recommendations based on user query.\\n\\n    Args:\\n        question: Natural language user query describing what products they're looking for\\n\\n    Returns:\\n        Product details including ID, name, category, description, image URL, and price\\n    \", 'parameters': {'properties': {'question': {'title': 'Question', 'type': 'string'}}, 'required': ['question'], 'title': 'get_product_recommendationsArguments', 'type': 'object', 'additionalProperties': False}, 'strict': True}], 'tool_choice': 'auto', 'truncation': 'disabled', 'id': 'resp_09e9c1b835e9a0660069e91338a2e88196819a24835512cf8c', 'object': 'response', 'status': 'completed', 'created_at': 1776882488, 'completed_at': 1776882489, 'error': None, 'incomplete_details': None, 'output': [{'type': 'function_call', 'id': 'fc_09e9c1b835e9a0660069e91339248c81969bf1b0244be9c5c6', 'agent_reference': {'type': 'agent_reference', 'name': 'interior-designer', 'version': '3'}, 'response_id': 'resp_09e9c1b835e9a0660069e91338a2e88196819a24835512cf8c', 'call_id': 'call_C7A4keSL2UoDw4fkDZ8E8aMn', 'name': 'mcp_product_recommendations', 'arguments': '{\"question\":\"Bathroom paint recommendation for redo: matte or glossy paint, plus any complementary bathroom products available for walls in a moisture-prone space\"}', 'status': 'completed'}], 'instructions': 'Interior Design Agent Guidelines\\n========================================\\n- You are a Interior Designer sales person working for Zava and help customers who need help in DIY Projects and other interior design queries\\n- Your main tasks are the following: recommending and upselling products, creating images\\n- You will get input in the form of a json, having:\\n[\\n    {\\n        \"Conversation_history\":the Conversation thats going on,\\n        \"image_url\": Image based on which you need to recreate some image\\n        \"image_description\": If there is an image attached, the description or it will be empty\\n        \"products_available\": A list of products, from where you can give recommendations\\n        \"user_last_query\": The last query from user\\n    }\\n]\\n- You will always recommend product from the products_available.\\n- You will keep asking questions to the user and keep recommending.\\n- When you get an image, reply saying \"I see you uploaded...\"\\n- If asked to change/modify/style an object, only then use create_image, otherwise keep recommending and upselling as usual.\\n- In your answer do not mention e.g. word instead use Example, such as or like based on the sentence.\\n\\nReturn response in following json format\\n\\nanswer: your answer,\\nimage_output: if there, otherwise empty\\nproducts: [\\n  {\\n    \"id\": \"<ProductID>\",\\n    \"name\": \"<ProductName>\",\\n    \"type\": \"<Singular Category Name>\",\\n    \"description\": \"<ProductDescription>\",\\n    \"imageURL\": \"<ImageURL>\",\\n    \"punchLine\": \"<ProductPunchLine>\",\\n    \"price\": \"<FormattedPriceWithDollarSign>\"\\n  }, {..}\\n  ...\\n]\\n\\n\\nInterior Design Agent Tool\\n========================================\\ncreate_image: Can create image as per users requirement such as repainting a given room in a different color (make sure the path and prompt is shared as is) given a prompt and path.\\n\\nExample Conversation\\n========================================\\nUser: Want paint recommendation for my living room\\nYou: Give some paints options, ask dimension, ask image\\nUser: Gives dimensions, image (maybe)\\nYou: Recommends based on the color, calculate how much paint maybe required, upsell for sprayer, tape (saying its good)\\n\\nContent Handling Guidelines\\n========================================\\n- Do not generate content summaries or remove any data.\\n\\n---\\nIMPORTANT: Your entire response must be a valid JSON array as described above. Do not include any other text or formatting.\\n\\n', 'usage': {'input_tokens': 611, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 46, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 657}, 'parallel_tool_calls': True, 'agent_reference': {'type': 'agent_reference', 'name': 'interior-designer', 'version': '3'}, 'content_filters': [{'blocked': False, 'source_type': 'prompt', 'content_filter_raw': [], 'content_filter_results': {'violence': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': False, 'detected': False}, 'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}}, 'content_filter_offsets': {'start_offset': 30, 'end_offset': 93, 'check_offset': 0}}, {'blocked': False, 'source_type': 'completion', 'content_filter_raw': [], 'content_filter_results': {'violence': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'protected_material_code': {'filtered': False, 'detected': False}, 'protected_material_text': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 0, 'end_offset': 1622, 'check_offset': 0}}]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.83,
+      "f1_score": 0.02,
+      "no_error": 0.0,
+      "length_quality": 0.5,
+      "overall": 0.47
+    },
+    "latency_s": 2.47
+  },
+  {
+    "agent": "customer-loyalty",
+    "description": "Loyalty status and discount check",
+    "query": "Check my loyalty status and available discounts. Customer ID: CUST001",
+    "response": "{'metadata': {}, 'top_logprobs': 0, 'temperature': 1, 'top_p': 0.98, 'service_tier': 'default', 'model': 'gpt-5.4-mini', 'reasoning': {'effort': 'none'}, 'background': False, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tools': [{'type': 'function', 'name': 'mcp_calculate_discount', 'description': \"\\n    Calculate available discounts for a customer based on their purchase history.\\n\\n    Args:\\n        customer_id: The customer's unique identifier\\n\\n    Returns:\\n        Discount information including percentage and final amount\\n    \", 'parameters': {'properties': {'customer_id': {'title': 'Customer Id', 'type': 'string'}}, 'required': ['customer_id'], 'title': 'get_customer_discountArguments', 'type': 'object', 'additionalProperties': False}, 'strict': True}], 'tool_choice': 'auto', 'truncation': 'disabled', 'id': 'resp_0755f49e19c4841d0069e9133b1ffc8196b9731164ccd1f409', 'object': 'response', 'status': 'completed', 'created_at': 1776882491, 'completed_at': 1776882492, 'error': None, 'incomplete_details': None, 'output': [{'type': 'function_call', 'id': 'fc_0755f49e19c4841d0069e9133bcb588196911d0aa9af89fc51', 'agent_reference': {'type': 'agent_reference', 'name': 'customer-loyalty', 'version': '4'}, 'response_id': 'resp_0755f49e19c4841d0069e9133b1ffc8196b9731164ccd1f409', 'call_id': 'call_p45KnzUcsrvcWq2s2IEr222G', 'name': 'mcp_calculate_discount', 'arguments': '{\"customer_id\":\"CUST001\"}', 'status': 'completed'}], 'instructions': 'Customer Loyalty Agent Guidelines\\n========================================\\n- Your task is assign discounts based on customers Loyalty information.Return the discount calculate from the calculate_discount tool as response.\\n- Check Customer ID in query when asked about discount, if not ask customer ID.\\n- Send customer_id as input to calculate_discount tool to calculate discount\\n- Write the response from tool in 1st person i.e (Congratulations! You are eligible for.. thankyou..) bla bla\\n- Always include smile emojis like 🎉, 😊, or 🛍️ to keep the tone light and celebratory.\\n- Example message(keep changing) : Hey there, Bruno! 🎉 \\\\n Great news—you just scored an exclusive 20% off your order! \\\\nTreat yourself and enjoy your special savings at checkout. Thanks for being awesome! 🙌\\n- In your answer do not mention e.g. word instead use Example, such as or like based on the sentence.\\n\\n- Return response in following json format\\n\\nanswer: your answer,\\ndiscount_percentage:keep discount percentage from the tool.\\n\\nCustomer Loyalty Agent Tool\\n-----\\nmcp_calculate_discount: Takes in customer_id, calculates discount as per tier and returns response.\\n\\nContent Handling Guidelines\\n---------------------------\\n- Do not generate content summaries or remove any data.\\n- Return only the \"answer\" and \"discount_percentage\" columns.\\n', 'usage': {'input_tokens': 373, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 24, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 397}, 'parallel_tool_calls': True, 'agent_reference': {'type': 'agent_reference', 'name': 'customer-loyalty', 'version': '4'}, 'content_filters': [{'blocked': False, 'source_type': 'prompt', 'content_filter_raw': [], 'content_filter_results': {'sexual': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 30, 'end_offset': 99, 'check_offset': 0}}, {'blocked': False, 'source_type': 'completion', 'content_filter_raw': [], 'content_filter_results': {'self_harm': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}, 'protected_material_code': {'filtered': False, 'detected': False}, 'protected_material_text': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 0, 'end_offset': 1442, 'check_offset': 0}}]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 1.0,
+      "f1_score": 0.01,
+      "no_error": 0.0,
+      "length_quality": 1.0,
+      "overall": 0.6
+    },
+    "latency_s": 2.34
+  },
+  {
+    "agent": "customer-loyalty",
+    "description": "Discount request without customer ID (should ask for ID)",
+    "query": "Am I eligible for any promotions?",
+    "response": "answer: Please share your customer ID so I can check your eligible promotions and discount percentage 😊🎉,\ndiscount_percentage: null",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.5,
+      "f1_score": 0.18,
+      "no_error": 1.0,
+      "length_quality": 1.0,
+      "overall": 0.74
+    },
+    "latency_s": 2.34
+  },
+  {
+    "agent": "customer-loyalty",
+    "description": "Tier inquiry with customer ID",
+    "query": "My customer ID is CUST001. What tier am I in?",
+    "response": "{'metadata': {}, 'top_logprobs': 0, 'temperature': 1, 'top_p': 0.98, 'service_tier': 'default', 'model': 'gpt-5.4-mini', 'reasoning': {'effort': 'none'}, 'background': False, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tools': [{'type': 'function', 'name': 'mcp_calculate_discount', 'description': \"\\n    Calculate available discounts for a customer based on their purchase history.\\n\\n    Args:\\n        customer_id: The customer's unique identifier\\n\\n    Returns:\\n        Discount information including percentage and final amount\\n    \", 'parameters': {'properties': {'customer_id': {'title': 'Customer Id', 'type': 'string'}}, 'required': ['customer_id'], 'title': 'get_customer_discountArguments', 'type': 'object', 'additionalProperties': False}, 'strict': True}], 'tool_choice': 'auto', 'truncation': 'disabled', 'id': 'resp_081ea30ebf32eb5e0069e9133fde2481978c48012c1a4f36f9', 'object': 'response', 'status': 'completed', 'created_at': 1776882495, 'completed_at': 1776882496, 'error': None, 'incomplete_details': None, 'output': [{'type': 'function_call', 'id': 'fc_081ea30ebf32eb5e0069e9134076ec8197a4ff3a4b4a249e0e', 'agent_reference': {'type': 'agent_reference', 'name': 'customer-loyalty', 'version': '4'}, 'response_id': 'resp_081ea30ebf32eb5e0069e9133fde2481978c48012c1a4f36f9', 'call_id': 'call_ONKxh3ozgcoR2Xoquaw8MtXA', 'name': 'mcp_calculate_discount', 'arguments': '{\"customer_id\":\"CUST001\"}', 'status': 'completed'}], 'instructions': 'Customer Loyalty Agent Guidelines\\n========================================\\n- Your task is assign discounts based on customers Loyalty information.Return the discount calculate from the calculate_discount tool as response.\\n- Check Customer ID in query when asked about discount, if not ask customer ID.\\n- Send customer_id as input to calculate_discount tool to calculate discount\\n- Write the response from tool in 1st person i.e (Congratulations! You are eligible for.. thankyou..) bla bla\\n- Always include smile emojis like 🎉, 😊, or 🛍️ to keep the tone light and celebratory.\\n- Example message(keep changing) : Hey there, Bruno! 🎉 \\\\n Great news—you just scored an exclusive 20% off your order! \\\\nTreat yourself and enjoy your special savings at checkout. Thanks for being awesome! 🙌\\n- In your answer do not mention e.g. word instead use Example, such as or like based on the sentence.\\n\\n- Return response in following json format\\n\\nanswer: your answer,\\ndiscount_percentage:keep discount percentage from the tool.\\n\\nCustomer Loyalty Agent Tool\\n-----\\nmcp_calculate_discount: Takes in customer_id, calculates discount as per tier and returns response.\\n\\nContent Handling Guidelines\\n---------------------------\\n- Do not generate content summaries or remove any data.\\n- Return only the \"answer\" and \"discount_percentage\" columns.\\n', 'usage': {'input_tokens': 373, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 24, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 397}, 'parallel_tool_calls': True, 'agent_reference': {'type': 'agent_reference', 'name': 'customer-loyalty', 'version': '4'}, 'content_filters': [{'blocked': False, 'source_type': 'prompt', 'content_filter_raw': [], 'content_filter_results': {'self_harm': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': False, 'detected': False}, 'sexual': {'filtered': False, 'severity': 'safe'}}, 'content_filter_offsets': {'start_offset': 917, 'end_offset': 962, 'check_offset': 0}}, {'blocked': False, 'source_type': 'completion', 'content_filter_raw': [], 'content_filter_results': {'sexual': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}, 'protected_material_code': {'filtered': False, 'detected': False}, 'protected_material_text': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 0, 'end_offset': 1442, 'check_offset': 0}}]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 1.0,
+      "f1_score": 0.01,
+      "no_error": 0.0,
+      "length_quality": 1.0,
+      "overall": 0.6
+    },
+    "latency_s": 2.3
+  },
+  {
+    "agent": "customer-loyalty",
+    "description": "Loyalty program engagement",
+    "query": "How do I earn more loyalty points? Customer ID: CUST001",
+    "response": "{'metadata': {}, 'top_logprobs': 0, 'temperature': 1, 'top_p': 0.98, 'service_tier': 'default', 'model': 'gpt-5.4-mini', 'reasoning': {'effort': 'none'}, 'background': False, 'text': {'format': {'type': 'text'}, 'verbosity': 'medium'}, 'tools': [{'type': 'function', 'name': 'mcp_calculate_discount', 'description': \"\\n    Calculate available discounts for a customer based on their purchase history.\\n\\n    Args:\\n        customer_id: The customer's unique identifier\\n\\n    Returns:\\n        Discount information including percentage and final amount\\n    \", 'parameters': {'properties': {'customer_id': {'title': 'Customer Id', 'type': 'string'}}, 'required': ['customer_id'], 'title': 'get_customer_discountArguments', 'type': 'object', 'additionalProperties': False}, 'strict': True}], 'tool_choice': 'auto', 'truncation': 'disabled', 'id': 'resp_03822fcc0b99bf000069e9134220688193be6a29902a1a57be', 'object': 'response', 'status': 'completed', 'created_at': 1776882498, 'completed_at': 1776882499, 'error': None, 'incomplete_details': None, 'output': [{'type': 'function_call', 'id': 'fc_03822fcc0b99bf000069e91342b1bc81939efa618a7a72affd', 'agent_reference': {'type': 'agent_reference', 'name': 'customer-loyalty', 'version': '4'}, 'response_id': 'resp_03822fcc0b99bf000069e9134220688193be6a29902a1a57be', 'call_id': 'call_IGxIufXqdFjYS4uDGEd6qmIp', 'name': 'mcp_calculate_discount', 'arguments': '{\"customer_id\":\"CUST001\"}', 'status': 'completed'}], 'instructions': 'Customer Loyalty Agent Guidelines\\n========================================\\n- Your task is assign discounts based on customers Loyalty information.Return the discount calculate from the calculate_discount tool as response.\\n- Check Customer ID in query when asked about discount, if not ask customer ID.\\n- Send customer_id as input to calculate_discount tool to calculate discount\\n- Write the response from tool in 1st person i.e (Congratulations! You are eligible for.. thankyou..) bla bla\\n- Always include smile emojis like 🎉, 😊, or 🛍️ to keep the tone light and celebratory.\\n- Example message(keep changing) : Hey there, Bruno! 🎉 \\\\n Great news—you just scored an exclusive 20% off your order! \\\\nTreat yourself and enjoy your special savings at checkout. Thanks for being awesome! 🙌\\n- In your answer do not mention e.g. word instead use Example, such as or like based on the sentence.\\n\\n- Return response in following json format\\n\\nanswer: your answer,\\ndiscount_percentage:keep discount percentage from the tool.\\n\\nCustomer Loyalty Agent Tool\\n-----\\nmcp_calculate_discount: Takes in customer_id, calculates discount as per tier and returns response.\\n\\nContent Handling Guidelines\\n---------------------------\\n- Do not generate content summaries or remove any data.\\n- Return only the \"answer\" and \"discount_percentage\" columns.\\n', 'usage': {'input_tokens': 373, 'input_tokens_details': {'cached_tokens': 0}, 'output_tokens': 24, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 397}, 'parallel_tool_calls': True, 'agent_reference': {'type': 'agent_reference', 'name': 'customer-loyalty', 'version': '4'}, 'content_filters': [{'blocked': False, 'source_type': 'prompt', 'content_filter_raw': [], 'content_filter_results': {'self_harm': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'filtered': False, 'detected': False}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}}, 'content_filter_offsets': {'start_offset': 30, 'end_offset': 85, 'check_offset': 0}}, {'blocked': False, 'source_type': 'completion', 'content_filter_raw': [], 'content_filter_results': {'violence': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'hate': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'protected_material_code': {'filtered': False, 'detected': False}, 'protected_material_text': {'filtered': False, 'detected': False}}, 'content_filter_offsets': {'start_offset': 0, 'end_offset': 1442, 'check_offset': 0}}]}",
+    "scores": {
+      "has_response": 1.0,
+      "keyword_coverage": 0.6,
+      "f1_score": 0.01,
+      "no_error": 0.0,
+      "length_quality": 1.0,
+      "overall": 0.52
+    },
+    "latency_s": 2.27
+  }
+]
